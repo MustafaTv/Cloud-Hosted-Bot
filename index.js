@@ -35,4 +35,4 @@ Client.on('message', (message)=>{
 })
 
 
-Client.login("NzE3NDE3MjQ1MTgwOTUyNjY2.XtaBSg.tMjwNy2lUcUCsBO87nq4dgZjLdk");
+Client.login(process.env.token);
